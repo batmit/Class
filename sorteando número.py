@@ -1,0 +1,10 @@
+import random
+n1 = random.randint(1, 9)
+n2 = random.randint(1, 9)
+n3 = random.randint(1, 9)
+n4 = random.randint(1, 9)
+n5 = random.randint(1, 9)
+n6 = random.randint(1, 9)
+n7 = random.randint(1, 9)
+n8 = random.randint(1, 9)
+print(f'\033[1;30m{n1}\033[1;31m{n2}\033[1;32m{n3}\033[1;33m{n4}\033[1;34m{n5}\033[1;35m{n6}\033[1;36m{n7}\033[1;37m{n8}\033[m')
